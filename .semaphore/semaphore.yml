@@ -25,7 +25,7 @@ blocks:
           value: test
       prologue:
         commands:
-          - checkout
+          - checkout master
           - sem-version node 12
           - cache restore
       jobs:
