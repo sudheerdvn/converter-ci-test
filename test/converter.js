@@ -12,7 +12,7 @@ describe("Color Code Converter", function() {
 
       expect(redHex).to.equal("ff0000");
       expect(greenHex).to.equal("00ff00");
-      expect(blueHex).to.equal("0000ff");
+      expect(blueHex).to.equal("0000f");
     });
   });
 
